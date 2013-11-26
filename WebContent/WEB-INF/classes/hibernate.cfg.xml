@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+
+		<mapping class="com.bengkel.base.entity.AccessModule" />
+		<mapping class="com.bengkel.base.entity.AccessModuleID" />
+		<mapping class="com.bengkel.base.entity.Customer" />
+		<mapping class="com.bengkel.base.entity.DailyCounter" />
+		<mapping class="com.bengkel.base.entity.ExceptionEvent" />
+		<mapping class="com.bengkel.base.entity.Gudang" />
+		<mapping class="com.bengkel.base.entity.HargaJual" />
+		<mapping class="com.bengkel.base.entity.Invoice" />
+		<mapping class="com.bengkel.base.entity.InvoiceDetail" />
+		<mapping class="com.bengkel.base.entity.Item" />
+		<mapping class="com.bengkel.base.entity.ItemHargaJual" />
+		<mapping class="com.bengkel.base.entity.ItemHargaJualID" />
+		<mapping class="com.bengkel.base.entity.Kategori" />
+		<mapping class="com.bengkel.base.entity.Merk" />
+		<mapping class="com.bengkel.base.entity.Module" />
+		<mapping class="com.bengkel.base.entity.Penawaran" />
+		<mapping class="com.bengkel.base.entity.PenawaranDetail" />
+		<mapping class="com.bengkel.base.entity.PurchaseOrderDetail" />
+		<mapping class="com.bengkel.base.entity.PurchaseOrderHeader" />
+		<mapping class="com.bengkel.base.entity.Role" />
+		<mapping class="com.bengkel.base.entity.Retur" />
+		<mapping class="com.bengkel.base.entity.ReturDetail" />
+		<mapping class="com.bengkel.base.entity.SalesOrder" />
+		<mapping class="com.bengkel.base.entity.SalesOrderDetail" />
+		<mapping class="com.bengkel.base.entity.StockOpname" />
+		<mapping class="com.bengkel.base.entity.StockOpnameDAOImpl" />
+		<mapping class="com.bengkel.base.entity.Supplier" />
+		<mapping class="com.bengkel.base.entity.TerimaBarangDetail" />
+		<mapping class="com.bengkel.base.entity.TerimaBarangHeader" />
+		<mapping class="com.bengkel.base.entity.Uom" />
+		<mapping class="com.bengkel.base.entity.UomConv" />
+		<mapping class="com.bengkel.base.entity.User" />
+
+
+	</session-factory>
+</hibernate-configuration>
